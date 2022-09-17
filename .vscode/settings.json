@@ -1,0 +1,9 @@
+{
+    "tabnine.disableFileRegex": [
+        "ts"
+    ],
+    "emmet.includeLanguages": {
+        "javascriptreact": "xml",
+        "typescriptreact": "xml"
+    },
+}
