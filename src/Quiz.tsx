@@ -71,7 +71,7 @@ export const Quiz: Component<{ questions: IQuestion[] }> = props => {
         <div class="hero min-h-screen bg-base-200">
             <div class="hero-content text-center">
                 <div class="max-w-md">
-                    <div class="card w-96 bg-base-100 shadow-xl relative">
+                    <div class="card max-w-96 bg-base-100 shadow-xl relative">
                         {result() && <div class="absolute grid place-items-center jusitfy-center bg-base-100 z-50 top-0 left-0 w-full h-full card w-96 bg-base-100 shadow-xl">
                             <div class="flex flex-col gap-5 items-start">
                                 <h2 class="card-title text-center">Nəticə</h2>
